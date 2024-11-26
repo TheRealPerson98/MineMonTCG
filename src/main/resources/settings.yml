@@ -1,0 +1,17 @@
+card:
+  defaultItem: "PAPER"
+  displayName: "%card_name%"
+  lore:
+    - "%type%"
+    - "%rarity%"
+    - "%series%"
+  glow: true
+  customModelData: 1001
+
+features:
+  trading:
+    enabled: true
+    allowDuplicates: true
+  battles:
+    playerBattles: true
+    aiBattles: true 

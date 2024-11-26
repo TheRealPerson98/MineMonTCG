@@ -1,0 +1,16 @@
+rarities:
+  common:
+    displayName: "<green>Common</green>"
+    weight: 100
+  uncommon:
+    displayName: "<yellow>Uncommon</yellow>"
+    weight: 60
+  rare:
+    displayName: "<blue>Rare</blue>"
+    weight: 30
+  epic:
+    displayName: "<light_purple>Epic</light_purple>"
+    weight: 15
+  legendary:
+    displayName: "<gold>Legendary</gold>"
+    weight: 5

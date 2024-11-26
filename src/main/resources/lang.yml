@@ -1,0 +1,3 @@
+messages:
+  playerNotFound: "<red>Player not found!"
+  reloaded: "<green>Config reloaded!"

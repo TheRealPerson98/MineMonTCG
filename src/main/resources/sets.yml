@@ -1,0 +1,15 @@
+sets:
+  base_set:
+    displayName: "<gradient:gold:yellow>Base Set</gradient>"
+    releaseDate: "01/01/2024"
+    endDate: "12/31/2024"
+  
+  special_edition:
+    displayName: "<gradient:red:dark_red>Special Edition</gradient>"
+    releaseDate: "02/14/2024"
+    endDate: "03/14/2024"
+  
+  summer_collection:
+    displayName: "<gradient:aqua:green>Summer Collection</gradient>"
+    releaseDate: "06/01/2024"
+    endDate: "08/31/2024" 

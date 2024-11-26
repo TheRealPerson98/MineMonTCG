@@ -1,0 +1,50 @@
+packs:
+  basic_pack:
+    displayName: "<gradient:yellow:gold>Basic Card Pack</gradient>"
+    item:
+      material: "CHEST"
+      displayName: "<gradient:yellow:gold>Basic Card Pack</gradient>"
+      lore:
+        - "<gray>Contains 5 random cards"
+        - "<gray>Guaranteed at least 1 rare!"
+        - ""
+        - "<yellow>Right-click to open"
+      glow: true
+      customModelData: 2001
+    cards:
+      blaziken: 5
+      aquadragon: 15
+      grassspirit: 80
+
+  premium_pack:
+    displayName: "<gradient:light_purple:dark_purple>Premium Pack</gradient>"
+    item:
+      material: "ENDER_CHEST"
+      displayName: "<gradient:light_purple:dark_purple>Premium Pack</gradient>"
+      lore:
+        - "<gray>Contains 5 random cards"
+        - "<light_purple>Guaranteed epic or better!"
+        - ""
+        - "<yellow>Right-click to open"
+      glow: true
+      customModelData: 2002
+    cards:
+      blaziken: 30
+      aquadragon: 50
+      grassspirit: 20
+
+  legendary_pack:
+    displayName: "<gradient:gold:yellow>Legendary Pack</gradient>"
+    item:
+      material: "END_PORTAL_FRAME"
+      displayName: "<gradient:gold:yellow>Legendary Pack</gradient>"
+      lore:
+        - "<gray>Contains 3 random cards"
+        - "<gold>Guaranteed legendary card!"
+        - ""
+        - "<yellow>Right-click to open"
+      glow: true
+      customModelData: 2003
+    cards:
+      blaziken: 80
+      aquadragon: 20 

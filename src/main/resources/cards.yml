@@ -1,0 +1,52 @@
+cards:
+  blaziken:
+    cardName: "Blaziken"
+    types: ["fire", "dragon"]
+    rarity: "legendary"
+    set: "base_set"
+    description:
+      - "A fierce fire-type pokemon"
+      - "that never backs down from a fight"
+      - "Known for its powerful kicks"
+    canBeShiny: true
+    item:
+      material: "BLAZE_ROD"
+      displayName: "<gradient:red:gold>Blaziken</gradient>"
+      customModelData: 1001
+      lore:
+        - "<gray>A legendary fire pokemon"
+        - "<red>Types: %types%"
+        - "<yellow>Set: %set%"
+        - "<aqua>Rarity: %rarity%"
+        - ""
+        - "%description%"
+  
+  aquadragon:
+    cardName: "Aqua Dragon"
+    types: ["water", "dragon"]
+    rarity: "epic"
+    set: "base_set"
+    description:
+      - "A powerful water dragon"
+      - "that rules the seas"
+      - "Can create massive tidal waves"
+    canBeShiny: true
+    # Using default item settings from settings.yml
+  
+  grassspirit:
+    cardName: "Grass Spirit"
+    types: ["grass"]
+    rarity: "rare"
+    set: "base_set"
+    description:
+      - "A mystical spirit of nature"
+      - "Brings life to withered plants"
+    canBeShiny: false
+    item:
+      material: "GRASS"
+      displayName: "<gradient:green:dark_green>Grass Spirit</gradient>"
+      customModelData: 1002
+      lore:
+        - "<gray>%description%"
+        - "<green>Type: %types%"
+        - "<yellow>From: %set%" 

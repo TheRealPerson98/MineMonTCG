@@ -1,0 +1,45 @@
+types:
+  fire:
+    displayName: "<gradient:red:yellow>Fire</gradient>"
+    weakAgainst: ["water", "rock", "ground"]
+    strongAgainst: ["grass", "ice", "bug", "steel"]
+  
+  water:
+    displayName: "<gradient:blue:aqua>Water</gradient>"
+    weakAgainst: ["electric", "grass"]
+    strongAgainst: ["fire", "ground", "rock"]
+  
+  grass:
+    displayName: "<gradient:green:dark_green>Grass</gradient>"
+    weakAgainst: ["fire", "ice", "poison", "flying", "bug"]
+    strongAgainst: ["water", "ground", "rock"]
+  
+  electric:
+    displayName: "<gradient:yellow:gold>Electric</gradient>"
+    weakAgainst: ["ground"]
+    strongAgainst: ["water", "flying"]
+  
+  ground:
+    displayName: "<gradient:gold:dark_gray>Ground</gradient>"
+    weakAgainst: ["water", "grass", "ice"]
+    strongAgainst: ["fire", "electric", "poison", "rock", "steel"]
+  
+  rock:
+    displayName: "<gradient:gray:dark_gray>Rock</gradient>"
+    weakAgainst: ["water", "grass", "fighting", "ground", "steel"]
+    strongAgainst: ["fire", "ice", "flying", "bug"]
+  
+  steel:
+    displayName: "<gradient:gray:white>Steel</gradient>"
+    weakAgainst: ["fire", "fighting", "ground"]
+    strongAgainst: ["ice", "rock"]
+  
+  ice:
+    displayName: "<gradient:aqua:white>Ice</gradient>"
+    weakAgainst: ["fire", "fighting", "rock", "steel"]
+    strongAgainst: ["grass", "ground", "flying", "dragon"]
+  
+  dragon:
+    displayName: "<gradient:dark_purple:purple>Dragon</gradient>"
+    weakAgainst: ["ice", "dragon"]
+    strongAgainst: ["dragon"] 
