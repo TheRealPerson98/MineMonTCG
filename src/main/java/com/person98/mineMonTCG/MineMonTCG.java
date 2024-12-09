@@ -30,7 +30,6 @@ public final class MineMonTCG extends JavaPlugin {
         TypeLoader.loadTypes();
         CardLoader.loadCards();
         PackLoader.loadPacks();
-
         // Plugin startup logic
     }
 
